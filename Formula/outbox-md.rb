@@ -1,28 +1,28 @@
 class OutboxMd < Formula
   desc "Local-first, agent-agnostic review for AI-generated Markdown specs"
   homepage "https://github.com/rajanrx/outbox-md"
-  version "0.13.0"
+  version "0.13.1"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/rajanrx/outbox-md/releases/download/v0.13.0/outbox_darwin_arm64"
-      sha256 "03ca0df10e5e7fb3dca417fd6bc6afc7dab41ede73af6dec8742335ab3bce1e3"
+      url "https://github.com/rajanrx/outbox-md/releases/download/v0.13.1/outbox_darwin_arm64"
+      sha256 "63fbf12765d1999cedff5576ba782f75f47f94aca156714ff5158fd8abae5ee9"
     end
     on_intel do
-      url "https://github.com/rajanrx/outbox-md/releases/download/v0.13.0/outbox_darwin_amd64"
-      sha256 "7552b2a4aeec445f658ebd3e0afd0cfc8ec54f0bf3fad0220159c4fc7b36a2bf"
+      url "https://github.com/rajanrx/outbox-md/releases/download/v0.13.1/outbox_darwin_amd64"
+      sha256 "e82116b30fcd6c1ea4c48ce2197a71e3da13233e48a99853f2fbbdfc4986f932"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/rajanrx/outbox-md/releases/download/v0.13.0/outbox_linux_arm64"
-      sha256 "00a43e3d2fd048082e3111e368466306219d5ae2361574045bcfce2d3e6abcf2"
+      url "https://github.com/rajanrx/outbox-md/releases/download/v0.13.1/outbox_linux_arm64"
+      sha256 "a78dc72c85e9a5de62f9d565ff85e80d6930377613efe6502d88fcd21f8252a9"
     end
     on_intel do
-      url "https://github.com/rajanrx/outbox-md/releases/download/v0.13.0/outbox_linux_amd64"
-      sha256 "c873c776c74817cd0cfc24135800d039e6fdd9de6cbdc3f7a4dfecc80e30f24c"
+      url "https://github.com/rajanrx/outbox-md/releases/download/v0.13.1/outbox_linux_amd64"
+      sha256 "82455014d9548515d5498a0a4d0fced8dbd4a898bf8c15781745035a5c7db620"
     end
   end
 
